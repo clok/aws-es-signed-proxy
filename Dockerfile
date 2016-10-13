@@ -20,7 +20,7 @@ WORKDIR /usr/src/es-proxy
 ADD package.json /usr/src/es-proxy/
 RUN npm install
 
-ADD proxy.js /usr/src/es-proxy/
+ADD es-proxy.js /usr/src/es-proxy/
 ADD docker/usr/bin/* /usr/bin/
 ADD docker/etc/supervisor/conf.d/* /etc/supervisor/conf.d/
 
