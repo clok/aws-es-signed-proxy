@@ -10,7 +10,9 @@ ES Proxy Docker entrypoint has the following modes:
   - Proxy to the AWS ES instance
   - REQUIRED: `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY_ID` & `AWS_ES_ENDPOINT`
 
-## Example goto-proxy in Rancher
+**PORT 9200** is exposed in the Dockerfile.
+
+## Example Config
 
 ```
 es-proxy:
@@ -25,7 +27,7 @@ es-proxy:
   stdin_open: true
 ```
 
-## Structure
+## File Structure
 
 ```
 $ tree
