@@ -1,4 +1,4 @@
-FROM ubuntu:14.04.05
+FROM ubuntu:24.04
 MAINTAINER Synctree Appforce
 
 RUN apt-get update \
